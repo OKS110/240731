@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shoutcut icon" href="./images/fv.svg">
+    <!-- 파비콘 -->
+
+    <!-- PC css -->
+
+    <link rel="stylesheet" href="./css/style_header.css">
+    <link rel="stylesheet" href="./css/style_section1.css">
+    <link rel="stylesheet" href="./css/style_section2.css">
+    <link rel="stylesheet" href="./css/style_section3.css">
+    <link rel="stylesheet" href="./css/style_section4.css">
+    <link rel="stylesheet" href="./css/style_section5.css">
+    <link rel="stylesheet" href="./css/style_section6.css">
+    <link rel="stylesheet" href="./css/style_footer.css">
+
+
+    <!-- 모바일 css -->
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="stylesheet" href="./css/styleheader.css">
+    <link rel="stylesheet" href="./css/stylesection1.css">
+    <link rel="stylesheet" href="./css/stylesection2.css">
+    <link rel="stylesheet" href="./css/stylesection3.css">
+    <link rel="stylesheet" href="./css/stylesection4.css">
+    <link rel="stylesheet" href="./css/stylesection5.css">
+    <link rel="stylesheet" href="./css/stylesection6.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script/jquery-1.12.3.js"></script>
+    <script src="./script/script.js"></script>
+
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        body{
+            font-family: "Inter", sans-serif;
+            padding-top: 92px;
+
+        }
+
+        a { display: block;
+            text-decoration: none; 
+            color: inherit; /* 부모 글자색 상속받음 */}
+
+        li { list-style: none; } 
+        h2,h2,h3,h4,h5 {margin: 0; padding: 0;}
+
+
+        /* =============================반응형 구조================== */
+        #pcwrap{
+                display: block;
+            }
+        #mobile_wrap{position: relative; display: none;}
+
+
+        @media (max-width:768px){
+            #pcwrap{
+                display: none;
+            }
+            #mobile_wrap{position: relative; display: block;}
+    }
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- =======================================header==============================
+     ============================================================================= -->
+<div id="pcwrap">
+    <header>
+        <div id="popup">          <!--  전구에 마우스 올릴 시에 나타나는 말풍선 -->
+   
+            카카오 소식 모아보기
+            <div class="popup_tail">
+                <img src="./images2/speech_bubble.svg" alt="말풍선">
+            </div>
+        </div>
+        <nav class="main_menu">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/kakao.svg" alt="로고"></a>
+            </div>
+             <ul class="head_text">
+                <li><a href="./sub.html">소개</a>
+                <div class="headerPopup1">
+                    <a href="./sub.html">카카오그룹</a>
+                    <a href="./sub.html">연혁</a>
+                </div></li>
+
+                <li><a href="./sub.html">이야기</a>
+                    <div class="headerPopup2">
+                        <a href="./sub.html">콘텐츠 저장소</a>
+                        <a href="./sub.html">뚝딱뚝딱 성장기</a>
+                        <a href="./sub.html">숫자로 보는 카카오</a>
+                        <a href="./sub.html">카카오 나우</a>
+                    </div></li>
+                </li>
+                <li><a href="./sub.html">기술과 서비스</a>
+                    <div class="headerPopup3">
+                        <a href="./sub.html">기술</a>
+                        <a href="./sub.html">서비스</a>
+                    </div></li>
+                </li>
+                <li><a href="./sub.html">약속과 책임</a>
+                    <div class="headerPopup4">
+                        <a href="./sub.html">카카오의 다짐</a>
+                        <a href="./sub.html">ESG</a>
+                        <a href="./sub.html">액티브그린</a>
+                        <a href="./sub.html">정책</a>
+                    </div></li>
+                </li>
+                <li><a href="./sub.html">뉴스</a>
+                    <div class="headerPopup5">
+                        <a href="./sub.html">보도자료</a>
+                        <a href="./sub.html">참고자료</a>
+                    </div></li>
+                </li>
+                <li><a href="./sub.html">투자정보 <img src="./icons/right_top_arrow.svg" class="investment_arrow" alt="화살표"></a></li>
+                </li>
+             </ul>
+             <div class="right_menu">
+                <ul class="head_icons">
+                    <li><a href="#"><img src="./icons/header_icon1.svg" alt="헤더아이콘1"></a></li>
+                    <li><a href="#"><img src="./icons/header_icon2.svg" alt="헤더아이콘2"></a></li>
+                    <li><a href="#"><img src="./icons/header_icon3.svg" alt="헤더아이콘3"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+<!-- =======================================section_1===================================
+     ============================================================================= -->
+    <section class="section_1">
+        
+        <div class="s1_box1">
+            <div class="s1_image">
+                <!-- <img src="./images/bigsize_img.svg" alt="큰이미지"> -->
+                <video src="./video/4df145ef019000001.mp4" width="1424px" autoplay muted loop></video>
+                <div class="bigsize_text">
+                    모두의 삶<br> 모두의 기술<br>
+                    <span>
+                        모두의 삶 프로젝트 Ep.4
+                    </span>
+                </div>
+
+                <a href="#">
+                    <div class="lb">
+                        <span>영상보러가기</span>
+                        <div class="b_arrow"><img src="./icons/right_arrow.svg" alt="우측화살표"></div>
+                    
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="rt">
+                        <div class="bulb">
+                            <img src="./icons/Bulb.svg" class="layerPopup" alt="전구" >
+                        </div>
+                        
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <!-- 동영상 옆 칸 3개 -->
+        <div class="s1_box2">
+            <div class="s1_box2_1_1">
+                <img src="./images/kakaoimpact.svg" alt="kakaoimpact">
+                <div class="toggle_1">
+                    <a href="#"><img src="./icons/dot_short.svg" class = "short_dot" alt="short_dot"></a>
+                    <img src="./icons/dot_long.svg" alt="long_dot">
+                </div>
+            </div>
+            <div class="s1_box2_1_2 off">
+                <img src="./images/volunteerimg.svg" alt="기부">
+                <div class="toggle_1">
+                    <img src="./icons/dot_long.svg" alt="long_dot">
+                    <a href="#"><img src="./icons/dot_short.svg" class = "short_dot" alt="short_dot"></a>
+
+                </div>
+            </div>
+            <div class="s1_box2_2">
+                <div class="value">
+                    다양성의 가치
+                </div>
+                <div class="s1text_1">
+                    2023<br>
+                    카카오 다양성 보고서
+                </div>
+                <div class="s1text_2">
+                    #다양성 #건강한디지털
+                </div>
+
+                <div class="toggle_2">
+                    <img src="./icons/long_dot.svg" alt="short_dot">
+                    <img src="./icons/short_dot.svg" alt="long_dot">
+                    <img src="./icons/short_dot.svg" alt="long_dot">
+                </div>
+            </div>
+
+
+            <div class="s1_box2_3">
+                <img src="./icons/left_shortarrow.svg" alt="왼쪽화살표">
+                <div class="icon3d">
+                    <img src="./icons/3dicon.svg" alt="3dicon">
+                    <span>카카오 그룹</span>
+                </div>
+                <img src="./icons/right_shortarrow.svg" alt="오른쪽화살표"><br>
+                <div class="talking_box">
+                    <img src="./images/talkingbox.svg" alt="말풍선">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<!-- =======================================section_2===================================
+     ============================================================================= -->
+
+    <section class="section_2">
+        <!-- section_2 타이틀 -->
+        <div class="section_2_head">
+            <div class="s2h_left_img">  
+                <img src="./icons/heading1icon.svg" alt="비디오아이콘">  
+            </div>
+
+            <p>카카오와 카카오 그룹이 축적해 온 이야기들</p>
+
+            <div class="s2h_right">
+                <a href="#"><img src="./icons/playbtn.svg" alt="플레이버튼"></a>
+            </div>    
+        </div>
+        <!-- 슬라이드 -->
+        <div class="slideWrap">
+            <ul class="imgSlide">
+              <li><div class="slide_box1">
+                  <div class="slide_box2">
+                      <ul class="slide_box2_head">
+                          <li class="title_img"><img src="./icons/heading1icon.svg" alt="비디오아이콘"></li>
+                          <li class="slide_box2_title">임팩트</li>
+                          <li class="slide_box2_dot3">
+                              <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                          </li>
+                      </ul>
+                      <h2 class = "slide_box2_text">
+                          왕초보 사장님들의<br>
+                          단골만들기 비법
+                      </h2>
+                      <p class = "sub_text">
+                          마케팅이 어려웠던 사장님이<br>
+                          매출 500% 올린 비결
+                      </p>
+                      <ul class = "bottom_text">
+                          <li>#소상공인지원</li>
+                          <li>#카카오상생활동</li>
+                          <li>#카카오톡채널</li>
+                      </ul>
+                  </div>
+                  
+                  <img src="./images/3people_image.svg" alt="사장님들">   
+              </div></li>
+  
+              <li><div class="slide_box3">
+                  <ul class="slide_box3_head">
+                      <li class="title_img"><img src="./icons/notes.svg" alt="노트아이콘"></li>
+                      <li class="slide_box3_title">더 가깝게</li>
+                      <li class="slide_box3_dot3">
+                              <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                      </li>
+                  </ul>
+                  <h2 class = "slide_box3_text">
+                      무료로 여는<br>
+                      톡 안의 두 번째 매장
+                  </h2>
+                      
+                  <ul class = "bottom_text">
+                      <li>#디지털전환</li>
+                      <li>#카카오톡채널</li>
+                  </ul>
+                  <img src="./images/img207.svg" alt="207">
+                  
+              </div></li>
+  
+              <li><div class="slide_box4">
+                  <img src="./images/hero_img.svg" alt="hero">
+                  <ul class="slide_box4_head">
+                      <li class="title_img"><img src="./icons/heading1icon.svg" alt="비디오아이콘"></li>
+                      <li class="slide_box4_title">임팩트</li>
+                      <li class="slide_box4_dot3">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                        </li>
+                  </ul>
+                  <h2 class = "slide_box4_text">
+                      도로 위 히어로즈
+                  </h2>
+                  
+                      
+                  <ul class = "bottom_text">
+                      <li>#카카오모빌리티</li>
+                      <li>#파트너상생</li>
+                  </ul>
+                  
+                  
+              </div></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- =======================================section_3=====================================
+     ============================================================================= -->
+    <section class="section_3">
+        <!-- section3 타이틀 -->
+        <div class="section_head_40">
+            <div class="sh_left_img">  
+                <img src="./icons/heading2icon.svg" alt="전구아이콘">  
+            </div>
+
+            <p>더 나은 세상을 만드는 카카오 서비스</p>
+        </div>
+
+        <div class="s3wrap">
+        <!-- section3 리스트 -->
+
+            <ul>
+                <!-- 왼쪽 -->
+                <li>
+                    <div class="s3text">
+                        <b>커뮤니케이션</b>
+                    </div>
+                    <div class="s3iconbox">
+                        <a href="#"><img src="./icons/Button-16.svg" alt="카카오버튼"></a>
+                        <a href="#"><img src="./icons/Button-9.svg" alt="다음버튼"></a>
+                        <a href="#"><img src="./icons/Button-10.svg" alt="스토리버튼"></a>
+                        <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                  
+                </li>
+                <li>
+                    <div class="s3text">
+                        <b>일상편의</b>
+                    </div>
+                    <div class="s3iconbox">
+                        <a href="#"><img src="./icons/Button-13.svg" alt="위치버튼"></a>
+                        <a href="#"><img src="./icons/Button-14.svg" alt="카카오택시버튼"></a>
+                        <a href="#"><img src="./icons/Button-15.svg" alt="카카오뱅크버튼"></a>
+                        <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="s3text">
+                        <b>엔터테인먼트</b>
+                    </div>
+                    <div class="s3iconbox">
+                        <a href="#"><img src="./icons/Button-17.svg" alt="카카오페이지버튼"></a>
+                        <a href="#"><img src="./icons/Button-11.svg" alt="픽코마버튼"></a>
+                        <a href="#"><img src="./icons/Button-12.svg" alt="멜론버튼"></a>
+                        <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <!-- 오른쪽 -->
+                <li>
+                    <div class="s3text">
+                        <b>비즈니스</b>
+                    </div>
+                    <div class="s3iconbox">
+                        <a href="#"><img src="./icons/Button-5.svg" alt="카카오채널버튼"></a>
+                        <a href="#"><img src="./icons/Button-7.svg" alt="클라우드버튼"></a>
+                        <a href="#"><img src="./icons/Button-8.svg" alt="agit버튼"></a>
+                        <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="s3text">
+                        <b>쇼핑</b>
+                    </div>
+                    <div class="s3iconbox">
+                            <a href="#"><img src="./icons/Button-2.svg" alt="카카오선물버튼"></a>
+                            <a href="#"><img src="./icons/Button-3.svg" alt="카카오샾버튼"></a>
+                            <a href="#"><img src="./icons/Button-4.svg" alt="지그재그버튼"></a>
+                            <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="s3text">
+                        <b>소셜임팩트</b>
+                    </div>
+                    <div class="s3iconbox_small">
+                        <a href="#"><img src="./icons/Button-6.svg" alt="하트버튼"></a>
+                        <a href="#"><img src="./icons/Button-1.svg" alt="플러스버튼"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- section3 하단 버튼 -->
+        <div class="service_all">
+            <a href="#">
+                <div class="sa_wrap">
+                    <span>서비스 전체보기</span>
+                    <img src="./icons/right_smallarrow.svg" alt="작은오른쪽화살표">
+                </div>
+            </a>
+            
+        </div>
+    </section>
+
+
+<!-- =======================================section_4==================================
+     ============================================================================= -->
+    <section class="section_4">
+        <!-- section4 타이틀 -->
+        <div class="section_head">
+            <div class="sh_left_img">
+                <img src="./icons/heading3icon.svg" alt="달력">
+            </div>
+
+            <p>오늘의 뉴스</p>
+        </div>
+
+
+        <ul class="s4_top">
+            <li class="s4_topwrap">
+                <div>
+                    <div class="s4_topwrap_head_left">
+                        <ul>
+                            <li><img src="./icons/news_second.svg" alt="확성기"></li>
+                            <li>보도자료</li>
+                            <li>2024.06.28</li>
+                        </ul>
+                    </div>
+                    <div class="s4_topwrap_head_right">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                    </div>
+                </div>
+                <a href="#">
+                    <p class="topwrap_title">
+                    카카오, 타임지가 발표한 ‘2024 세계<br>
+                    최고의 지속가능 선도기업’ 선정
+                    </p>
+                    <ul>
+                        <li>#ESG경영</li>
+                        <li>#기업지속가능성평가</li>
+                        <li>#지속가능성</li>
+                    </ul>
+                    <img src="./images/news1.svg" alt="news1">
+                </a>
+            </li>
+            
+            
+            <li class="s4_topwrap">
+                <div>
+                    <div class="s4_topwrap_head_left">
+                        <ul>
+                            <li><img src="./icons/news_second.svg" alt="확성기"></li>
+                            <li>보도자료</li>
+                            <li>2024.06.28</li>
+                        </ul>
+                    </div>
+                    <div class="s4_topwrap_head_right">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                    </div>
+                </div>
+                <a href="#">
+                    <p class="topwrap_title">
+                        카카오톡 선물하기, 샤넬 코코 크러쉬<br>
+                        디지털 팝업 스토어 오픈
+                    </p>
+                    <ul>
+                        <li>#샤넬 코코 크러쉬 디지털 팝업</li>
+                        <li>#선물하기 LuX</li>
+                        <li>#선물하기 디지털 팝업</li>
+                    </ul>
+                    <img src="./images/news2.svg" alt="news1">
+                </a>
+                
+            </li>
+            <li class="s4_topwrap">
+                <div>
+                    <div class="s4_topwrap_head_left">
+                        <ul>
+                            <li><img src="./icons/news_second.svg" alt="확성기"></li>
+                            <li>보도자료</li>
+                            <li>2024.06.28</li>
+                        </ul>
+                    </div>
+                    <div class="s4_topwrap_head_right">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                    </div>
+                </div>
+                <a href="#">
+                    <p class="topwrap_title">
+                        카카오, 민•관 협업 소상공인<br>
+                        성장지원사업 ‘강한 소상공인' 실전 교육<br>
+                        및 네트워킹 데이 개최
+                    </p>
+                    <ul>
+                        <li>#카카오쇼핑 더하는가치</li>
+                        <li>#강한 소상공인</li>
+                        <li>#소상공인 지원</li>
+                        <li>#카카오쇼핑</li>
+                    </ul>
+                    <img src="./images/news3.svg" alt="news1">
+                </a>
+                
+            </li>
+        </ul>
+        
+        <ul class="s4_middle">
+            <li class="s4_middle_wrap">
+                <div>
+                    <div class="s4_middlewrap_head_left">
+                        <ul>
+                            <li><img src="./icons/news_second.svg" alt="확성기"></li>
+                            <li>보도자료</li>
+                            <li>2024.06.28</li>
+                        </ul>
+                    </div>
+                    <div class="s4_middlewrap_head_right">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                    </div>
+                </div>
+      
+                <p class="middlewrap_title">
+                    <a href="#">카카오, 사내 해커톤 '2024 24K' 진행</a>
+                </p>
+            </li>
+            <li class="s4_middle_wrap">
+                <div>
+                    <div class="s4_middlewrap_head_left">
+                        <ul>
+                            <li><img src="./icons/news_second.svg" alt="확성기"></li>
+                            <li>보도자료</li>
+                            <li>2024.06.28</li>
+                        </ul>
+                    </div>
+                    <div class="s4_middlewrap_head_right">
+                        <a href="#"><img src="./icons/dot3.svg" alt="dot3"></a>
+                    </div>
+                </div>
+      
+                <p class="middlewrap_title">
+                    <a href="#">카카오, '2024 공공선 융합 포럼'에서 디지털 안전에 관해 학계와 소통</a>
+                </p>
+            </li>
+        </ul>
+
+
+        <ul class="s4_bottom">
+            <li class="s4_bottom_wrap">
+                <a href="#">
+                    <span>전체뉴스</span>
+                    <div>
+                        <span>바로가기</span>
+                        <div class="s4imgbox"><img src="./icons/right_smallarrow.svg" alt="작은오른쪽화살표"></div>
+                    </div>
+                </a>
+                
+            </li>
+            <li class="s4_bottom_wrap">
+                <a href="#">
+                    <span>보도자료</span>
+                    <div>
+                        <span>바로가기</span>
+                        <div class="s4imgbox"><img src="./icons/right_smallarrow.svg" alt="작은오른쪽화살표"></div>
+                    </div>
+                </a>
+                
+            </li>
+            <li class="s4_bottom_wrap">
+                <a href="#">
+                    <span>참고자료</span>
+                    <div>
+                        <span>바로가기</span>
+                        <div class="s4imgbox"><img src="./icons/right_smallarrow.svg" alt="작은오른쪽화살표"></div>
+                    </div>
+                </a>
+                
+            </li>
+        </ul>
+    </section>
+
+<!-- =======================================section_5===================================
+     ============================================================================= -->
+
+    <section class="section_5">
+        <!-- section5 타이틀 -->
+        <div class="section_head">
+            <div class="sh_left_img">
+                <img src="./icons/heading4icon.svg" alt="하트">
+            </div>
+
+            <p>약속과 책임</p>
+        </div>
+
+        <ul>
+            <li>
+                <div class="section5_righthead_box">
+                    <span class="section5_righthead">
+                        ESG
+                    </span>
+                </div>
+
+                <div class="gif">
+                    <!-- <img src="./images/esg.gif.svg" alt="esg"> -->
+                    <img src="./video/GIF1.gif" alt="policy">
+                </div>
+
+                <p>
+                    모두의 지속가능한 미래를 위한<br>
+                    카카오의 약속과 책임
+                </p>
+
+                <div class="section5_arrow_box">
+                    <div class="s5_arrow">
+                        <a href="#"><img src="./icons/right_arrow.svg" alt="오른쪽 화살표"></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="section5_righthead_box">
+                    <span class="section5_righthead">
+
+                         액티브그린
+                    </span>
+                </div>
+
+                <div class="gif">
+                    <!-- <img src="./images/green.gif.svg" alt="green"> -->
+                    <img src="./video/GIF2.gif" alt="policy">
+
+                </div>
+
+                <p>
+                    카카오를 이용하는 만큼 우리들의<br>
+                    지구도 더 풍요로울 수 있도록
+                </p>
+                <div class="section5_arrow_box">
+                    <div class="s5_arrow">
+                        <a href="#"><img src="./icons/right_arrow.svg" alt="오른쪽 화살표"></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="section5_righthead_box">
+                    <span class="section5_righthead">
+                        정책매거진
+                    </span>
+                </div>
+
+                <div class="gif">
+                    <!-- <img src="./images/policy.gif.svg" alt="policy"> -->
+                    <img src="./video/GIF3.gif" alt="policy">
+
+
+                </div>
+
+                <p>
+                    기술과 사람이 함께 만드는 건강한<br>
+                    디지털 문화를 고민합니다
+                </p>
+                <div class="section5_arrow_box">
+                    <div class="s5_arrow">
+                        <a href="#"><img src="./icons/right_arrow.svg" alt="오른쪽 화살표"></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+<!-- =======================================section_6====================================
+     ============================================================================= -->
+    <section class="section_6">
+        <!-- section6 타이틀 -->
+        <div class="section_head_40">
+            <div class="sh_left_img">
+                <img src="./icons/heading5icon.svg" alt="고객센터">
+            </div>
+
+            <p>무엇을 도와드릴까요?</p>
+        </div>
+        <!-- 왼쪽 3개 박스 -->
+        <ul class="s6_top">
+            <li class="section6_box">
+                <ul>
+                    <a href="#">
+                        <li class="section6_1">
+                            <p>카카오 고객센터</p>
+                            <span>바로가기
+                                <div>
+                                    <img src="./icons/right_top_arrow_black.svg" class="change" alt="오른쪽대각선 화살표">
+                                </div>
+                            </span>
+                            
+                            <div class="slider-container">
+                                <!-- img -->
+                                <ul class="slide-wrapper">
+                                    <li><a href="#"><img src="./icons/help-1.svg" class="stay" alt="카카오아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-2.svg" alt="다음아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-3.svg" class="stay" alt="커머스아이콘"></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="section6_1">
+                            <p>다음 고객센터</p>
+                            <span>바로가기
+                                <div>
+                                    <img src="./icons/right_top_arrow_black.svg" class="change" alt="오른쪽대각선 화살표">
+                                </div>
+                            </span>
+    
+                            <div class="slider-container">
+                                <!-- img -->
+                                <ul class="slide-wrapper2">
+                                    <li><a href="#"><img src="./icons/help-2.svg" alt="다음아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-3.svg" class="stay" alt="커머스아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-1.svg" class="stay" alt="카카오아이콘"></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </a>
+
+
+                    <a href="#">
+                        <li class="section6_1">
+                            <p>커머스 고객센터</p>
+                            <span>바로가기
+                                <div>
+                                    <img src="./icons/right_top_arrow_black.svg" class="change" alt="오른쪽대각선 화살표">
+                                </div>
+                            </span>
+    
+                            <div class="slider-container">
+                                <!-- img -->
+                                <ul class="slide-wrapper3">
+                                    <li><a href="#"><img src="./icons/help-3.svg" class="stay" alt="커머스아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-1.svg" class="stay" alt="카카오아이콘"></a></li>
+                                    <li><a href="#"><img src="./icons/help-2.svg" alt="다음아이콘"></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </li>
+
+            <!-- 라이언 이미지 -->
+            <li class="section6_box">
+                <div class="section6_4">
+                    <p>
+                        카카오의 다양한 소식을 구독하세요!
+                    </p>
+                    
+                    <div class="s6_4_shortcut">공식 소셜 미디어 바로가기</div>
+                    <div class="s6_4_iconbtn">
+                        <ul>
+                            <li><a href="#"><img src="./icons/btn5.svg" alt="카카오채널버튼"></a></li>
+                            <li><a href="#"><img src="./icons/btn1.svg" alt="유튜브버튼"></a></li>
+                            <li><a href="#"><img src="./icons/btn2.svg" alt="인스타버튼"></a></li>
+                            <li><a href="#"><img src="./icons/btn3.svg" alt="페이스북버튼"></a></li>
+                            <li><a href="#"><img src="./icons/btn4.svg" alt="in버튼"></a></li>
+                        </ul>
+                    </div>
+                    <div class="s6_4_img">
+                        <img src="./images/lion-image.svg" alt="라이언">
+                    </div>
+                </div>    
+            </li>
+
+
+            <!-- 오른쪽 박스 -->
+            <li class="section6_box">
+                <div class="section6_5">
+                    <p>
+                        세상만사에 관심이 많다면,<br>
+                        당신은 이미 카카오 크루
+                    </p>
+                    
+                    <div><a href="#">영입소식<span class="blur"><img src="./icons//right_top_arrow.svg" class="blur" alt="검은색 오른쪽대각선 화살표"></span></a></div>
+
+                    <img src="./images/paintimage.svg" alt = "페인트이미지">
+                  
+                </div>
+                
+            </li>
+        </ul>
+        
+            <!-- 아래 2박스 -->
+        <ul class="s6_bottom">
+            <li>
+                <a href="#">
+                    <div class="s6_text">
+                        <p>투자정보</p>
+                        <span><p class="s6b_shortcut">바로가기</p>
+                        <div>
+                            <img src="./icons/right_top_arrow_black.svg" class="change" alt="오른쪽대각선 화살표">
+                        </div>
+                        </span>
+                    </div>
+                    
+                    <div class="s6_img"><img src="./icons/chart.svg" alt="차트"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="s6_text">
+                        <p>데이터의 연결과 보호의 균형을 위한 카카오의 노력</p>
+                        <span><p class="s6b_shortcut">바로가기</p>
+                        <div>
+                            <img src="./icons/right_top_arrow_black.svg" class="change" alt="오른쪽대각선 화살표">
+                        </div>
+                        </span>
+                        
+                    </div>
+                    <div class="s6_img"><img src="./icons/lock.svg" alt="차트"></div>
+                    
+                </a>
+                
+            </li>
+        </ul>
+
+
+        <!-- 하단 버튼 -->
+        <div class="service_all">
+            <a href="#">
+                <div class="sa_wrap">
+                    <span>카카오 소식 모아보기</span>
+                    <img src="./icons/right_smallarrow.svg" alt="작은오른쪽화살표">
+                </div>
+            </a>
+            
+        </div>
+    </section>
+
+
+
+    <!-- =======================================footer==================================
+     ============================================================================= -->
+    <footer>
+        <div class="footerwrap">
+            <ul>
+                <li>
+                    <span>
+                        오늘의 카카오
+                    </span>
+
+                    <ul class="f_lefttag">
+                        <li><a href="#" class="right_short_arrow_gray">카카오톡 공식 다운로드<img src="./icons/right_short_arrow_gray.svg" alt="작은오른쪽화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오톡백업<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></li></a>
+                        <li><a href="#">#카카오 이모티콘샵</a></li>
+                        <li><a href="#">#조용한채팅방</a></li>
+                        <li><a href="#">#카카오맵</a></li>
+                        <li><a href="#">#지속가능성</a></li>
+                        <li><a href="#">#개발자도구</a></li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <p>카카오 그룹의 서비스</p>
+                    <ul class="f_service">
+                        
+
+                        <li><a href="#">커뮤니케이션</a></li>
+                        <li><a href="#">일상편의</a></li>
+                        <li><a href="#">비즈니스</a></li>
+                        <li><a href="#">쇼핑</a></li>
+                        <li><a href="#">엔터테인먼트</a></li>
+                        <li><a href="#">임팩트</a></li>
+                        <li>   </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <p>카카오 그룹</p>
+                    <ul class="f_service">
+                        <li><a href="#">카카오</a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오페이<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오뱅크<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오모빌리티<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오스타일<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오엔터테인먼트<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오게임즈<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <ul class="f_service">
+                        <li><a href="#" class="right_top_arrow_gray">카카오픽코마<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오브레인<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오엔터프라이즈<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오헬스케어<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오벤처스<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오인베스트먼트<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">링키지랩<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>IR</p>
+                    <ul class="f_service">
+                        <li><a href="#" class="right_top_arrow_gray">기업지배구조<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">주가정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">재무정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">IR행사<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">공시정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">공고<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><!--  동일한 간격을 위한 공백 --></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <p>계정 및 지원</p>
+                    <ul class="f_service">
+                        <li><a href="#" class="right_top_arrow_gray">카카오계정<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오 프라이버시<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">카카오 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">다음 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">커머스 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><a href="#" class="right_top_arrow_gray">인재영입<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+                        <li><!--  동일한 간격을 위한 공백 --></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="bottom_menu">
+                <ul>
+                    <li><a href="#">이용약관<img src="./icons/south_arrow_gray.svg" alt="남쪽방향 화살표gray"></a></li>
+                    <li><a href="#" class="b">위치정보 이용약관<img src="./icons/south_arrow_gray.svg" alt="남쪽방향 화살표gray"></a></li>
+                    <li><a href="#" class="b">개인정보처리방침<img src="./icons/south_arrow_gray.svg" alt="남쪽방향 화살표gray"></a></li>
+                    <li><a href="#">운영정책</a></li>
+                    <li><a href="#">청소년보호정책<img src="./icons/south_arrow_gray.svg" alt="남쪽방향 화살표gray"></a></li>
+                    <li><a href="#">접근성 안내</a></li>
+                    <li><a href="#">브랜드보호정책</a></li>
+                    <li><a href="#">권리침해신고안내</a></li>
+                    <li><a href="#">공지사항<img src="./icons/south_arrow_gray.svg" alt="남쪽방향 화살표gray"></a></li>
+                    <li><a href="#">사이버윤리실</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+            <!-- 저작권 -->
+            <p class="copyright">
+                &copy; <a href="#">Kakao Corp.</a> All rights reserved.
+            </p>
+            <a href="#">
+                <div class="related_site">
+                        <span>관련사이트</span>                <!-- 누르면 모바일버전 전환 -->
+
+                    <div class="plus"><img src="./icons/plus.svg" alt="플러스버튼"></div>
+                </div>
+            
+            </a>
+        </div>
+    </footer>
+    
+</div>     
+    
+
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+
+<div id="mobile_wrap">
+    <!-- =======================================header==================================
+============================================================================= -->
+<header class="mheader">
+ <div>
+     <h1>
+         <a href="./index.html"><img src="./images2/kakao.svg" alt="로고"></a>
+     </h1>
+     <nav>
+         <a href="#"><img src="./icons2/heading_1_react.svg" alt="돋보기"></a>
+         <a href="#"><img src="./icons2/heading_burger.svg" alt="버거"></a>
+     </nav>
+ </div>
+ 
+</header>
+
+ <!-- =======================================section1==================================
+============================================================================= -->
+<div id="section1">
+ <div class="overlay">
+     <!-- <img src="./images2/video.svg" alt="비디오"> -->
+      <video src="./video/4df145ef019000001.mp4" width="712px" autoplay muted loop></video>
+     <div class="rt_whitebg">
+         <img src="./images2/rt_whitebg.svg" alt="우측상단 하얀색">
+     </div>
+     <div class="rt_white_box">
+         <a href="#">
+             <div class="rt_bulb_wrap">
+                 <div class="bulb_text">
+                     카카오 소식 모아보기
+                 </div>
+                 <img src="./images2/speech_bubble.svg" alt="말풍선">
+                 <div class="bulb_img">
+                     <img src="./images2/bulb.svg" alt="전구">
+                 </div>
+             </div>
+         </a>
+     </div>
+     <div class="lb_whitebg">
+         <img src="./images2/lb_whitebg.svg" alt="왼쪽하단 하얀색">
+     </div>
+
+     <div class="lb_white_box">
+         <a href="#" class="lb_white_wrap">
+             <div class="lb_text">
+                 영상 보러가기
+             </div>
+             <div class="lb_img">
+                 <img src="./icons2/right_white_arrow.svg" alt="우측 흰색 화살표">
+             </div>
+         </a>
+     </div>
+ </div>
+
+ <ul>
+     <li>
+         <a href="#">
+             <div class="li_1_title">
+                 기부에 함께 해주신<br>
+                 착한 마음들
+             </div>
+             <div class="number">
+                 59,492,856
+                 <span>건</span>
+             </div>
+             <div class="btn_wrap">
+                 <div class="btn_1">
+                     <img src="./icons2/black_bar_gray.svg" alt="검정 버튼_회색바탕">
+                 </div>
+                 <div class="btn_2">
+                     <img src="./icons2/white_bar_gray.svg" alt="흰색 버튼_회색바탕">
+                 </div>
+                 
+             </div>
+         </a>   
+     </li>
+
+
+     <li>
+         <a href="#">
+             <div class="value">
+                 다양성의 가치
+             </div>
+             <div class="value_title">
+                 2023<br>
+                 카카오 다양성 보고서
+             </div>
+             <div class="value_tag">
+                 #다양성 #건강한디지털
+             </div>
+             <div class="btn2_wrap">
+                 <div class="btn2_1"><img src="./icons2/black_bar.svg" alt="검정 버튼"></div>
+                 <div class="btn2_2"><img src="./icons2/gray_bar.svg" alt="회색 버튼"></div>
+                 <div class="btn2_2"><img src="./icons2/gray_bar.svg" alt="회색 버튼"></div>
+             </div>
+         </a>
+     </li>
+     <li>
+         <a href="#">
+             <div class="group_left_btn">
+                 <img src="./icons2/left_short_arrow.svg" alt="작은 왼쪽 화살표">
+             </div>
+             <div class="group_img">
+                 <img src="./images2/kakao_group.svg" alt="카카오 그룹 이미지"><br>
+                 <span>카카오 그룹</span>
+             </div>
+             <div class="group_right_btn">
+                 <img src="./icons2/right_short_arrow.svg" alt="작은 오른쪽 화살표">
+             </div>
+
+         </a>
+     </li>
+ </ul>
+</div>
+
+
+<!-- =======================================section2==================================
+============================================================================= -->
+<div id="section2">
+ <!-- section2 타이틀-->
+ <div class="title">
+     <div class="title_img">
+         <img src="./icons2/title_img1.svg" alt="비디오아이콘">  
+     </div>
+
+     <p>카카오와 카카오 그룹이 축적해 온 이야기들</p>
+     <div class="playBtn_wrap">
+         <a href="#" class="playBtn">
+             <img src="./icons2/playBtn.svg" alt="플레이버튼">
+         </a>
+     </div>
+ </div>
+
+ <!-- ===============================================slide============================================================================= -->
+ <div id="container">
+     <!-- 박스들을 반복적으로 생성 -->
+     <div class="box">
+         <li>
+             <div class="s2c_title">
+                 <img src="./icons2/movie.svg" class="s2_movie_icon" alt="영화아이콘">
+                 <div class="s2c_white_bg">
+                     임팩트
+                 </div>
+                 <a href="#">
+                     <img src="./icons2/3btn.svg" class="s2_3btn" alt="3btn">
+                 </a>
+             </div>
+             <a href="#">
+                 <div class="s2contents_wrap">
+                     <p class="s2contents_text">
+                         왕초보 사장님들의<br>
+                         단골 만들기 비법
+                     </p>
+ 
+                     <ul class="s2contents_tag">
+                         <li>#소상공인지원</li>
+                         <li>#카카오상생활동</li>
+                     </ul>
+                     <img src="./images2/s2_image1.svg" alt="s2_image1">
+                 </div>
+             </a>
+         </li>
+     </div>
+     <div class="box">
+         <li>
+             <div class="s2c_title">
+                 <img src="./icons2/cards.svg" class="s2_movie_icon" alt="영화아이콘">
+                 <div class="s2c_white_bg">
+                     더 가깝게
+                 </div>
+                 <a href="#">
+                     <img src="./icons2/3btn.svg" class="s2_3btn" alt="3btn">
+                 </a>
+             </div>
+             <a href="#">
+                 <div class="s2contents_wrap">
+                     <p class="s2contents_text">
+                         무료로 여는<br>
+                         톡 안의 두 번째 매장
+                     </p>
+ 
+                     <ul class="s2contents_tag">
+                         <li>#디지털전환</li>
+                         <li>#카카오톡채널</li>
+                     </ul>
+                     <img src="./images2/s2_image2.svg" alt="s2_image2">
+                 </div>
+             </a>
+         </li>
+     </div>
+     <div class="box">
+         <li>
+             <div class="s2c_title">
+                 <img src="./icons2/movie.svg" class="s2_movie_icon" alt="영화아이콘">
+                 <div class="s2c_white_bg">
+                     임팩트
+                 </div>
+                 <a href="#">
+                     <img src="./icons2/3btn.svg" class="s2_3btn" alt="3btn">
+                 </a>
+             </div>
+             <a href="#">
+                 <div class="s2contents_wrap">
+                     <p class="s2contents_text">
+                         도로 위 히어로즈
+                     </p>
+ 
+                     <ul class="s2contents_tag">
+                         <li>#카카오모빌리티</li>
+                         <li>#파트너상생</li>
+                     </ul>
+                     <img src="./images2/s2_image3.svg" alt="s2_image3">
+                 </div>
+             </a>
+         </li>
+     </div>
+     <div class="box">
+         <li>
+             <div class="s2c_title">
+                 <img src="./icons2/movie.svg" class="s2_movie_icon" alt="영화아이콘">
+                 <div class="s2c_white_bg">
+                     임팩트
+                 </div>
+                 <a href="#">
+                     <img src="./icons2/3btn.svg" class="s2_3btn" alt="3btn">
+                 </a>
+             </div>
+             <a href="#">
+                 <div class="s2contents_wrap">
+                     <p class="s2contents_text">
+                         카카오가 꿈꾸는<br>
+                         지속가능한 미래
+                     </p>
+ 
+                     <ul class="s2contents_tag">
+                         <li>#ESG</li>
+                         <li>#ESG보고서</li>
+                     </ul>
+                     <img src="./images2/s2_image4.svg" alt="s2_image4">
+                 </div>
+             </a>
+         </li>
+     </div>
+
+ </div>
+
+
+ <!-- =======================================section3=================================
+============================================================================= -->
+<div id="section3">
+ <!-- section3 타이틀-->
+ <div class="title_minus">
+     <div class="title_img">  
+         <img src="./icons2/title_img2.svg" alt="비디오아이콘">  
+     </div>
+
+     <p>더 나은 세상을 만드는 카카오 서비스</p>
+     <div class="playBtn_wrap">
+         <!-- <a href="#" class="playBtn">
+             <img src="./icons2/playBtn.svg" alt="플레이버튼">
+         </a> -->
+         <!-- PC일때 ON -->
+     </div>
+ </div>
+
+ <!-- 카카오서비스 메인 -->
+ <div class="service_ul_wrap">
+     <ul class="service_ul_1">
+         <li>
+             <span>
+                 커뮤니케이션
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <a href="#"><img src="./icons2/kakaoBtn.svg" alt="카카오 버튼"></a>
+                     <a href="#"><img src="./icons2/DaumBtn.svg" alt="다음 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+
+         <li>
+             <span>
+                 일상편의
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <a href="#"><img src="./icons2/kakaomapBtn.svg" alt="카카오맵 버튼"></a>
+                     <a href="#"><img src="./icons2/kakaoT_Btn.svg" alt="카카오T 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+
+         <li>
+             <span>
+                 엔터테인먼트
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <a href="#"><img src="./icons2/kakaoPageBtn.svg" alt="카카오페이지 버튼"></a>
+                     <a href="#"><img src="./icons2/PiccomaBtn.svg" alt="피코마 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+     </ul>
+
+     <ul class="service_ul_2">
+         <li>
+             <span>
+                 비즈니스
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <a href="#"><img src="./icons2/kakaochBtn.svg" alt="카카오채널 버튼"></a>
+                     <a href="#"><img src="./icons2/CloudBtn.svg" alt="클라우드 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+         <li>
+             <span>
+                 쇼핑
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <a href="#"><img src="./icons2/kakaoGiftBtn.svg" alt="카카오선물 버튼"></a>
+                     <a href="#"><img src="./icons2/kakaoShopBtn.svg" alt="카카오샾 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+         <li>
+             <span>
+                 소셜임팩트
+             </span>
+             <div class="service_icons_wrap">
+                 <div class="service_icons">
+                     <img src="./icons2/nothing.svg" alt="공간">
+                     <a href="#"><img src="./icons2/heartBtn.svg" alt="하트 버튼"></a>
+                     <a href="#" class="plusBtn_hover"><img src="./icons2/plusBtn.svg" alt="플러스버튼"></a>
+
+                 </div>
+             </div>
+         </li>
+     </ul>
+ </div>
+<!-- 하단버튼 -->
+ <a class="bottom_nav_btn" href="#">
+     <span>
+         서비스 전체보기
+     </span>
+         
+     <div class="bnb_img">
+         <img src="./icons2/white_right_arrow.svg" alt="흰색 오른쪽 화살표">
+     </div>
+ </a>
+</div>
+
+<!-- =======================================section4==================================
+============================================================================= -->
+<div id="section4">
+ <!-- section4 타이틀-->
+ <div class="title">
+     <div class="title_img">  
+         <img src="./icons2/title_img3.svg" alt="비디오아이콘">  
+     </div>
+
+     <p>오늘의 뉴스</p>
+     <div class="playBtn_wrap">
+         <!-- <a href="#" class="playBtn">
+             <img src="./icons2/playBtn.svg" alt="플레이버튼">
+         </a> -->
+     </div>
+ </div>
+
+ <!-- 뉴스 -->
+ <div class="news_wrap">
+     <div class="news_left">
+         <div class="news_title">
+             <img src="./icons2/trumpet.svg" alt="트럼펫아이콘">
+             <div class="white_title">
+                 보도자료
+             </div>
+             <a href="#" class="news_3btn"><img src="./icons2/3btn.svg" alt="3btn"></a>
+         </div>
+
+         <a href="#" class="news_bottom_left">
+             <p>
+                 카카오, 타임지가 발표한 ‘2024 세계 최고의<br>
+                 지속가능 선도기업’ 선정
+             </p>
+
+             <ul class="news_tags">
+                 <li>#ESG경영</li>
+                 <li>#기업지속가능성평가</li>
+                 <li>#지속가능성</li>
+             </ul>
+             <img src="./images2/news_img.svg" alt="뉴스_카카오이미지">
+             <a href="#" class="news_leftBtn">
+                 <img src="./icons2/left_short_arrow_white.svg" alt="흰색 왼쪽 부등호">
+             </a>
+             <a href="#" class="news_rightBtn">
+                 <img src="./icons2/right_short_arrow_white.svg" alt="흰색 오른쪽 부등호">
+             </a>
+         </a>
+         
+     </div>
+     <div class="news_right">
+         <div class="news_title">
+             <img src="./icons2/trumpet.svg" alt="트럼펫아이콘">
+             <div class="white_title">
+                 보도자료
+             </div>
+             <a href="#" class="news_3btn"><img src="./icons2/3btn.svg" alt="3btn"></a>
+         </div>
+         <a href="#" class="news_bottom_right">
+             <p>
+                 카카오, 사내 해커톤 '2024 24K' 진행
+             </p>
+         </a>
+     </div>
+
+     <div class="news_selectBtn">
+         <a href="#"><img src="./icons2/black_bar.svg" alt="검정 바"></a>
+         <a href="#"><img src="./icons2/gray_bar.svg" alt="회색 점"></a>
+     </div>
+
+     <div class="news_menu_wrap">
+         <a href="#" class="menu1">
+             <span>전체뉴스</span>
+             <div class="news_icon_wrap">
+                 <img src="./icons2/right_white_arrow.svg" alt="오른쪽 흰색 화살표">
+             </div>
+         </a>
+         <a href="#" class="menu2">
+             <span>보도자료</span>
+             <div class="news_icon_wrap">
+                 <img src="./icons2/right_white_arrow.svg" alt="오른쪽 흰색 화살표">
+             </div>
+         </a>
+         <a href="#" class="menu3">
+             <span>참고자료</span>
+             <div class="news_icon_wrap">
+                 <img src="./icons2/right_white_arrow.svg" alt="오른쪽 흰색 화살표">
+             </div>
+         </a>
+     </div>
+ </div>
+</div>
+
+<!-- =======================================section5==================================
+============================================================================= -->
+<div id="section5">
+ <!-- section5 타이틀-->
+ <div class="title">
+     <div class="title_img">  
+         <img src="./icons2/title_img4.svg" alt="비디오아이콘">  
+     </div>
+
+     <p>약속과 책임</p>
+     <div class="playBtn_wrap">
+         <!-- <a href="#" class="playBtn">
+             <img src="./icons2/playBtn.svg" alt="플레이버튼">
+         </a> -->
+     </div>
+ </div>
+
+ <div class="s5_wrap">
+     <ul>
+         <li>
+             <div class="s5_rt_whiteBg">
+                 <img src="./images2/s5_rt_whitebg.svg" alt="s5_우측상단 흰색배경">
+                 <div class="s5_rt_white">
+                     <div class="s5_rt_title">
+                         ESG
+                     </div>
+                 </div>
+             </div>
+             <div class="s5_rb_whiteBg">
+                     <img src="./images2/s5_rb_whiteBg.svg" alt="s5_우측하단 흰색배경">
+                     <a href="#">
+                         <div class="s5_rb_white">
+                             <img src="./icons2/s5_arrowBtn.svg" alt="s5_화살표버튼">
+                         </div>
+                     </a>
+             </div>
+             <div class="gif_wrap">
+                 <!-- <img src="./images2/esg.gif.svg" alt="ESG.gif"> -->
+                 <img src="./video/GIF1_1.gif" alt="policy">
+
+             </div>
+             <p class="s5_text txtblack">
+                 모두의 지속가능한<br>
+                 미래를 위한 카카오의<br>
+                 약속과 책임
+             </p>
+         </li>
+
+         <li>
+             <div class="s5_rt_whiteBg">
+                 <img src="./images2/s5_rt_whitebg.svg" alt="s5_우측상단 흰색배경">
+                 <div class="s5_rt_white">
+                     <div class="s5_rt_title">
+                         액티브그린
+                     </div>
+                 </div>
+             </div>
+             <div class="s5_rb_whiteBg">
+                 <img src="./images2/s5_rb_whiteBg.svg" alt="s5_우측하단 흰색배경">
+                 <a href="#">
+                     <div class="s5_rb_white">
+                         <img src="./icons2/s5_arrowBtn.svg" alt="s5_화살표버튼">
+                     </div>
+                 </a>
+             </div>
+             <div class="gif_wrap">
+                 <!-- <img src="./images2/green.gif.svg" alt="greem.gif"> -->
+                 <img src="./video/GIF2_2.gif" alt="policy">
+
+             </div>
+             <p class="s5_text">
+                 카카오를 이용하는<br>
+                 만큼 우리들의 지구도<br>
+                 더 풍요로울 수 있도록
+             </p>
+         </li>
+
+         <li>
+             <div class="s5_rt_whiteBg">
+                 <img src="./images2/s5_rt_whitebg.svg" alt="s5_우측상단 흰색배경">
+                 <div class="s5_rt_white">
+                     <div class="s5_rt_title">
+                         정책매거진
+                     </div>
+                 </div>
+             </div>
+             <div class="s5_rb_whiteBg">
+                 <img src="./images2/s5_rb_whiteBg.svg" alt="s5_우측하단 흰색배경">
+                 <a href="#">
+                     <div class="s5_rb_white">
+                         <img src="./icons2/s5_arrowBtn.svg" alt="s5_화살표버튼">
+                     </div>
+                 </a>
+             </div>
+             <div class="gif_wrap">
+                 <!-- <img src="./images2/policy.gif.svg" alt="policy.gif"> -->
+                 <img src="./video/GIF3_3.gif" alt="policy">
+
+             </div>
+             <p class="s5_text">
+                 기술과 사람이 함께<br>
+                 만드는 건강한 디지털<br>
+                 문화를 고민합니다
+             </p>
+         </li>
+     </ul>
+ </div>
+</div>
+
+
+
+ <!-- =======================================section6=============================
+============================================================================= -->
+<div id="section6">
+ <!-- section6 타이틀-->
+
+ <div class="title">
+     <div class="title_img">  
+         <img src="./icons2/title_img5.svg" alt="비디오아이콘">  
+     </div>
+
+     <p>무엇을 도와드릴까요?</p>
+     <div class="playBtn_wrap">
+         <!-- <a href="#" class="playBtn">
+             <img src="./icons2/playBtn.svg" alt="플레이버튼">
+         </a> -->
+     </div>
+ </div>
+ <div class="s6_wrap">
+     <div class="s6_box1">
+         <!-- 상단 -->
+         <ul>
+             <a href="#"><li>
+                 <span>
+                     카카오 고객센터
+                 </span>
+                 <div class="right-top-arrow">
+                     <img src="./icons2/right-top-arrow-white.svg" alt="흰색 대각선 화살표">
+                 </div>
+             </li></a>
+             <a href="#"><li>
+                 <span>
+                     다음 고객센터
+                 </span>
+                 <div class="right-top-arrow">
+                     <img src="./icons2/right-top-arrow-white.svg" alt="흰색 대각선 화살표">
+                 </div>
+             </li></a>
+             <a href="#"><li>
+                 <span>
+                     커머스 고객센터
+                 </span>
+                 <div class="right-top-arrow">
+                     <img src="./icons2/right-top-arrow-white.svg" alt="흰색 대각선 화살표">
+                 </div>
+             </li></a>
+         </ul>
+     </div>
+
+     <div class="s6_box2">
+         <!-- 중단 -->
+         <ul>
+             <li>
+                 <p>카카오의 다양한 소식을 구독하세요!</p>
+                 <span>공식 소셜 미디어 바로가기</span>
+                 <div class="s6_icons_box">
+
+                     <a href="#"><img src="./icons2/help-1.svg" alt=""></a>
+                     <a href="#"><img src="./icons2/help-2.svg" alt=""></a>
+                     <a href="#"><img src="./icons2/help-3.svg" alt=""></a>
+                     <a href="#"><img src="./icons2/help-4.svg" alt=""></a>
+                     <a href="#"><img src="./icons2/help-5.svg" alt=""></a>
+        
+                 </div>
+             </li>
+             <li><p>세상만사에 관심이 많다면,<br>
+                 당신은 이미 카카오 크루</p>
+                 <span>
+
+                     <a href="#" class="txtwhite">
+                         <div class="s6txt">
+                             영입소식
+                         </div>
+                         <div class="right-top-arrow-white">
+                             <img src="./icons2/right-top-arrow-black.svg" alt="검은색 대각선 화살표">
+                         </div>
+                     </a>
+                     
+                 </span>
+                 <img src="./images2/help-img.svg" alt="help-img">
+             </li>
+         </ul>
+     </div>
+
+     <div class="s6_box3">
+         <!-- 하단 -->
+         <ul>
+             <a href="#">
+                 <li>
+                     <p>투자정보</p>
+                     <div>
+                         <span>바로가기</span>
+                         <div class="right-top-arrow">
+                             <img src="./icons2/right-top-arrow-white.svg" alt="흰색 대각선 화살표">
+                         </div>
+                     </div>
+                     <img src="./images2/chart-img.svg" alt="차트이미지">
+                 </li>
+             </a>
+             
+             <a href="#">
+                 <li>
+                     <p>데이터의 연결과 보호의 균형을 위한<br>
+                         카카오의 노력</p>
+                     <div>
+                         <span>바로가기</span>
+                         <div class="right-top-arrow">
+                             <img src="./icons2/right-top-arrow-white.svg" alt="흰색 대각선 화살표">
+                         </div>
+                     </div>
+                     <img src="./images2/lock-img.svg" alt="자물쇠이미지">
+                 </li>
+             </a>
+             
+         </ul>
+     </div>
+ </div>
+
+ <!-- 하단 버튼 -->
+ <a class="bottom_nav_btn" href="#">
+     <span>
+         카카오 소식 모아보기
+     </span>
+         
+     <div class="bnb_img">
+         <img src="./icons2/white_right_arrow.svg" alt="흰색 오른쪽 화살표">
+     </div>
+ </a>
+</div>
+
+
+<!-- =======================================footer=================================
+============================================================================= -->
+<footer class="sub">
+<div class="today_kakao">
+ <h2>오늘의 카카오</h2>
+ <ul>
+     <li><a href="#">카카오톡 공식 다운로드 <img src="./icons2/gray_short_r_arrow.svg" alt="회색 오른쪽 작은화살표"></a></li>
+     <li><a href="#">카카오톡백업 <img src="./icons2/gray_rt_arrow.svg" alt="회색 오른쪽 상단 화살표"></a></li>
+     <li><a href="#">#카카오 이모티콘샵</a></li>
+     <li><a href="#">#조용한채팅방</a></li>
+     <li><a href="#">#카카오맵</a></li>
+     <li><a href="#">#지속가능성</a></li>
+     <li><a href="#">#개발자도구</a></li>
+ </ul>
+</div>
+
+<dl class="accordion">
+ <dt>
+     <li>카카오 그룹의 서비스 <img src="./icons2/gray_bottom_title_arrow.svg" alt="바텀 타이틀 아래 화살표"></li>
+ </dt>
+ <dd>
+     <ul>  
+         <li><a href="#">커뮤니케이션</a></li>
+         <li><a href="#">일상편의</a></li>
+         <li><a href="#">비즈니스</a></li>
+         <li><a href="#">쇼핑</a></li>
+         <li><a href="#">엔터테인먼트</a></li>
+         <li><a href="#">임팩트</a></li>
+         <li>   </li>
+     </ul>
+ </dd>
+
+ <dt>
+     <li>카카오 그룹 <img src="./icons2/gray_bottom_title_arrow.svg" alt="바텀 타이틀 아래 화살표"></li>
+ </dt>
+ <dd>
+     <ul>
+         <li><a href="#">카카오</a></li>
+         <li><a href="#">카카오페이<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오뱅크<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오모빌리티<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오스타일<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오엔터테인먼트<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오게임즈<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오픽코마<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오브레인<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오엔터프라이즈<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오헬스케어<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오벤처스<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오인베스트먼트<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">링키지랩<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+     </ul>
+ </dd> 
+
+ <dt>
+     <li>IR <img src="./icons2/gray_bottom_title_arrow.svg" alt="바텀 타이틀 아래 화살표"></li>
+ </dt>
+ <dd>
+     <ul>
+         <li><a href="#">기업지배구조<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">주가정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">재무정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">IR행사<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">공시정보<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">공고<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li>   </li>
+     </ul>
+ </dd>
+
+ <dt>
+     <li>계정 및 지원 <img src="./icons2/gray_bottom_title_arrow.svg" alt="바텀 타이틀 아래 화살표"></li>
+ </dt>
+ <dd>
+     <ul>
+         <li><a href="#">카카오계정<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오 프라이버시<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">카카오 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">다음 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">커머스 고객센터<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li><a href="#">인재영입<img src="./icons/right_top_arrow_gray.svg" alt="오른쪽대각선화살표gray"></a></li>
+         <li>   </li>
+     </ul>
+ </dd>
+</dl>
+
+<div class="footer_box2">
+ <ul>
+     <li>
+         <a href="#">
+             이용약관 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#" class="txtblack">
+             개인정보처리방침 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             청소년보호정책 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             브랜드보호정책 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             공지사항 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             Contact Us <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+     </li>
+     <li>
+         <a href="#" class="txtblack">
+             위치정보 이용약관 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             운영정책 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             접근성 안내 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             권리침해신고안내 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#">
+             사이버윤리실 <img src="./icons2/footerbox2_bottom_arrow_gray.svg" alt="푸터 아래 화살표 회색">
+         </a>
+         <a href="#"></a>
+     </li>
+ </ul>
+</div>
+
+
+<div class="footer_bottom_wrap">
+ <div class="footer_rights">
+     &copy; <a href="#">Kakao Corp. </a>All rights reserved.
+ </div>
+ <a href="#" class="footer_sites">
+     <span>관련사이트</span>
+     <div>
+         <img src="./icons2/footer_plus.svg" alt="푸터 플러스">
+     </div>
+ </a>
+</div>
+
+
+</footer>
+</div>
+
+</body>
+</html>
