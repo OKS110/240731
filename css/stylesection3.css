@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+/* mobile */
+
+    #section3{
+        width: 712px;
+        height: 502px;
+        /* background-color: yellow; */
+        margin-top: 80px;   
+        box-sizing: border-box;
+    }
+    /* 타이틀 */
+    .title_minus{
+        width: 712px;
+        height: 48px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    .title_minus p{
+        width: 524px;
+        height: auto;
+        letter-spacing: -1px;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+    
+        /* border: 1px solid red; */
+    }
+
+    /* 카카오 서비스 메인 */
+    .service_ul_wrap{
+        width: 720px;
+        height: 354px;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        margin: 0;
+        padding: 0;
+    }
+    /* 메인 좌측 */
+    .service_ul_1{
+        width: 360px;
+        height: 354px;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid red; */
+    
+    }
+    .service_ul_1 li{
+        background-color: #f3f3f3;
+        width: 352px;
+        height: 110px;
+        margin-top: 3px;
+        border-radius: 16px;
+        /* border: 1px solid red; */
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 24px;
+        box-sizing: border-box;
+        
+    
+    
+    }
+    .service_ul_1 li span{
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
+    }
+    
+    
+    
+    /* 아이콘 */
+    .service_icons_wrap{
+        width: 182px;
+        height: 46px;
+        /* border: 1px solid red; */
+        margin: 0;
+    }
+    .service_icons{
+        width: 165px;
+        height: 46px;
+        /* border: 1px solid red; */
+        margin: 0;
+        display: flex;
+        align-items: center;
+        float: right;
+    }
+
+    /* 플러스 버튼에 마우스 올릴 때 */
+    .plusBtn_hover:hover{
+        content: url(../icons2/plusBtn_hover.svg);
+        display: block;
+        float: right;
+        margin-left: 9.2px;
+    }
+    
+
+    /* 공간 */
+    .nothing{
+        width: 46px;
+        height: 46px;
+    
+    }
+    .service_icons img{
+        display: block;
+        /* border: 1px solid red; */
+        float: right;
+        margin-left: 9px;
+        
+    }
+    
+    
+    
+    
+    
+    /* 메인 우측 */
+    .service_ul_2{
+        width: 360px;
+        height: 354px;
+        margin: 0;
+        /* border: 1px solid red; */
+    
+    }
+    .service_ul_2 li{
+        background-color: #f3f3f3;
+        width: 352px;
+        height: 110px;
+        margin-top: 3px;
+        border-radius: 16px;
+        /* border: 1px solid red; */
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 24px;
+        box-sizing: border-box;
+    }
+    .service_ul_2 li span{
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
+    }
+    
+    /* 하단 버튼 */
+    .bottom_nav_btn{
+        margin-top: 24px;
+        width: 280px;
+        height: 60px;
+        background-color: #f3f3f3;
+        border-radius: 30px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        /* padding-left: 74px;
+        padding-right: 74px; */
+    
+    }
+    .bottom_nav_btn:hover .bnb_img{
+        opacity: .8;
+    }
+    .bottom_nav_btn span{
+        font-size: 14px;
+        display: block;
+        margin: 0;
+    }
+    .bnb_img{
+        width: 23px;
+        height: 23px;
+        background-color: #000;
+        border-radius: 23px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

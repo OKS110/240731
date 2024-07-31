@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* pc */
+footer{
+    width: 1920px;
+    height: 634px;
+    /* border-top: 1px solid black; */
+    box-sizing: border-box;
+}
+
+.footerwrap{
+    width: 1712px;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: 80px auto;
+    position: relative;
+}
+.footerwrap>ul{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.footerwrap>ul li{
+    width: 272px;
+    height: 320px;
+    /* border: 1px solid black; */
+    margin: 0;
+    position: relative;
+}
+.footerwrap>ul>li>p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 56px;
+}
+
+.footerwrap>ul>li>span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* ========================================오늘의 카카오 내용 ==============================================*/
+ul.f_lefttag{
+    width: 272px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    
+}
+ul.f_lefttag img{
+    display: inline-block;
+    margin-left: 7px;
+}
+
+/* ======================================마우스 올릴 때 변형================================================= */
+ul.f_lefttag a:hover{
+    color: #000;
+}
+ul.f_lefttag a.right_short_arrow_gray:hover img{
+    content: url("../icons/gray_black_arrow.svg");
+}
+ul.f_lefttag a.right_top_arrow_gray:hover img{
+    content: url("../icons/rt_gray_to_black_arrow.svg");
+}
+/* ============================================================================= */
+
+/* ===============================================카카오 그룹의 서비스 내용 ==================================================*/
+ul.f_service{
+    width: 272px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+    position: absolute; bottom: 0;
+}
+ul.f_service img{
+    display: inline-block;
+    margin-left: 7px;
+}
+/* ======================================마우스 올릴 때 변형================================================= */
+
+ul.f_service a:hover{
+    color: #000;
+}
+ul.f_service a.right_short_arrow_gray:hover img{
+    content: url("../icons/gray_black_arrow.svg");
+}
+ul.f_service a.right_top_arrow_gray:hover img{
+    content: url("../icons/rt_gray_to_black_arrow.svg");
+
+/* ============================================================================= */
+}
+
+
+/* 푸터 하단메뉴 */
+.footerwrap>.bottom_menu{
+    width: 1067px;
+    height: auto;
+    /* border: 1px solid red; */
+    position: absolute; left: 0;
+    color: #888;
+}
+
+.footerwrap>.bottom_menu>ul{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerwrap>.bottom_menu>ul li{
+    margin: 0;
+}
+
+
+/* ======================글자 색============================== */
+
+.b{
+    color: #333;
+}
+.footerwrap>.bottom_menu a:hover{
+    color: #000;
+}
+/* ================================================================*/ 
+
+
+
+/* ==========================================아이콘 변형============================================ */
+.bottom_menu img{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.footerwrap>.bottom_menu a:hover img{
+    content: url("../icons/north_arrow_black.svg");
+}
+
+/* ============================================================================== */
+.copyright{
+    /* border: 1px solid red; */
+    color: #888;
+    position: absolute; left: 0; bottom: 47px;
+}
+.copyright a{
+    display: inline;
+}
+/* 관련사이트 */
+.related_site{
+    width: 208px;
+    height: 40px;
+    border-radius: 24px;
+    font-size: 12px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; bottom: 74px; right: 0;
+}

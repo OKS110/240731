@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* pc */
+
+.section_3{
+    width: 1712px;
+    height: 851px;
+    /* background-color: gray; */
+    margin-bottom: 195px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* =====================================section3 타이틀==================================================== */
+.section_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1920px;
+    height: 78px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.sh_left_img{
+    width: 80px;
+    height: 80px;
+    position: absolute; left: 0px;
+}
+
+.section_head_40{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1920px;
+    height: 78px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-bottom: 44px;
+}
+.section_head_40 p{
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+/* ===================================================section3 리스트 =================================================*/
+.s3wrap{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 588px;
+    /* border: 1px solid blue; */
+    gap: 16px;
+}
+.s3wrap ul{
+    width: 848px;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+}
+.s3wrap ul li{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 848px;
+    height: 180px;
+    background-color: #F3F3F3;
+    margin-bottom: 16px;
+    border-radius: 24px;
+}
+
+.s3text{
+    font-size: 28px;
+    margin: 61px;
+    /* background-color: #ff4d4d; */
+}
+.s3iconbox{
+    display: flex;
+    justify-content: flex-end;
+    width: 290px;
+    height: auto;
+    /* background-color: #ff4d4d; */
+    margin: 61px;
+    padding : 0px;
+    /* border: 1px solid blue; */
+}
+.s3iconbox a{
+    margin-left: 12px;
+    margin-right: 0;
+    /* border: 1px solid blue; */
+
+}
+
+.s3iconbox_small{
+    display: flex;
+    justify-content: flex-end;
+    width: 153px;
+    height: auto;
+    /* background-color: #ff4d4d; */
+    margin: 61px;
+    padding : 0px;
+    /* border: 1px solid blue; */
+}
+.s3iconbox_small a{
+    margin-left: 12px;
+    margin-right: 0;
+    /* border: 1px solid blue; */
+}
+
+/* ===================================section3 하단 버튼 =======================================*/
+.service_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 21px;
+    letter-spacing: -1px;
+    border-radius: 38px;
+    background-color: #F3F3F3;
+    position: absolute; bottom: 0px; left: 698px;
+}
+.service_all a{
+    width: 100%;
+    height: 100%;
+}
+.sa_wrap{
+    display: flex;
+}
+.service_all span{
+    display: block;
+    margin-right: 11px;
+}
+.service_all img{
+    display: block;
+    margin-top: 3px;
+}
+.service_all:hover img{
+    opacity: .8;
+}

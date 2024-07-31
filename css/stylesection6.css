@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+/* mobile */
+
+    #section6{
+        width: 712px;
+        height: 570px;
+        /* background-color: rgb(255, 187, 187); */
+        margin-top: 80px;
+        
+    }
+    .s6_wrap{
+        width: 712px;
+        height: 414px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    /* ===========================================================상단===================================================== */
+    .s6_box1{
+        width: 100%;
+        height: 74px;
+        /* border: 1px solid red; */
+    }
+    .s6_box1>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s6_box1>ul>a{
+        margin: 0;
+    }
+    .s6_box1>ul>a>li{
+        background-color: #f3f3f3;
+        border-radius: 16px;
+        width: 232px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    
+    }
+    .s6_box1>ul>a>li:hover .right-top-arrow{
+        opacity: .8;
+    }
+    .s6_box1>ul>a>li>span{
+        display: block;
+        font-size: 16px;
+    }
+    .right-top-arrow{
+        width: 24px;
+        height: 24px;
+        background-color: #000;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+
+    /* ==============================================중단============================================== */
+    .s6_box2{
+        width: 100%;
+        height: 184px;
+        /* border: 1px solid red; */
+    }
+    .s6_box2>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s6_box2>ul>li{
+        margin: 0;
+        width: 352px;
+        height: 184px;
+        border-radius: 16px;
+        position: relative;
+    }
+    .s6_box2>ul>li:nth-child(1){
+        background-color: #FAE100;
+    }
+    .s6_box2>ul>li:nth-child(2){
+        background-color: #0073FF;
+        color: #fff;
+    }
+    .s6_box2>ul>li:nth-child(2)>img{
+        display: block;
+        position: absolute; top: 0; left: 0;
+    }
+    .s6_box2>ul>li p{
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-bottom: 8px;
+    }
+    .s6_box2>ul>li span{
+        margin-left: 24px;
+        display: block;
+        /* border: 1px solid red; */
+    }
+    .s6_icons_box{
+        width: 304px;
+        height: 73px;
+        /* border: 1px solid red; */
+        position: absolute; bottom: 24px; left: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .s6_icons_box>a{
+        width: 56px;
+        height: 56px;
+        margin: 17px 0 0 0;
+    }
+    .s6_icons_box>a img{
+        width: 100%;
+        height: 100%;
+    }
+    .txtwhite{
+        /* border: 1px solid red; */
+        float: left;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        width: 87px;
+        height: 24px;
+        cursor: pointer;
+    
+    }
+    .txtwhite:hover .right-top-arrow-white{
+        opacity: .8;
+    }
+    .s6txt{
+        width: 57px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .right-top-arrow-white{
+        width: 24px;
+        height: 24px;
+        background-color: #fff;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+        margin: 0;
+    }
+    
+    /* ================================================하단====================================================== */
+    .s6_box3{
+        width: 100%;
+        height: 140px;
+        /* border: 1px solid red; */
+    }
+    
+    .s6_box3>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s6_box3>ul>a{
+        margin: 0;
+        width: 352px;
+        height: 140px;
+        border-radius: 16px;
+        background-color: #f3f3f3;
+        position: relative;
+    }
+    .s6_box3>ul>a:hover .right-top-arrow{
+        opacity: .8;
+    }
+    .s6_box3>ul>a>li>p{
+        font-size: 16px;
+        letter-spacing: -1px;
+        width: 241px;
+        height: auto;
+        /* border: 1px solid red; */
+        position: absolute; top: 24px; left: 24px;
+    }
+    .s6_box3>ul>a>li>div{
+        display: block;
+        width: 84px;
+        height: 24px;
+        /* border: 1px solid red; */
+        position: absolute; bottom: 24px; left: 24px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .s6_box3>ul>a>li>div>span{
+        font-size: 14px;
+        margin: 0;
+    }
+    .s6_box3>ul>a>li>img{
+        display: block;
+        position: absolute; top: 39px; right: 16px;
+    
+    }

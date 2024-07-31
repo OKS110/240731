@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+/* pc */
+
+.section_6{
+    width: 1712px;
+    height: 972px;
+    /* background-color: purple; */
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* 상단 */
+.section_6>ul.s6_top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    
+}
+.section_6 .section6_box{
+    width: 560px;
+    height: 531px;
+    /* background-color: black; */
+    margin: 0;
+}
+.section_6 .section6_box a:hover img.change{
+    opacity: .8;
+}
+
+.section6_1{
+    width: 100%;
+    height: 161px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    background-color: #F3F3F3;
+    margin-top: 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+.section6_1 p{
+    width: 480px;
+    height: auto;
+    font-size: 25px;
+    /* margin: 35px; */
+    /* border: 1px solid red; */
+    position: absolute; top: 35px; left: 40px;
+}
+.section6_1 span{
+    display: block;
+    width: 102px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    position: absolute; bottom: 35px; left: 40px;
+    /* border: 1px solid red; */
+}
+.section6_1 span>div{
+    width: 24px;
+    height: 24px;
+    float: right;
+    /* border: 1px solid red; */
+    margin-top: 3px;
+    margin-left: 8px;
+
+}
+.section6_1 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ===================이미지 변신 박스=============================== */
+.slider-container{
+    width: 100px;
+    height: 100px;
+    position: absolute; left: 200px; top: 30px;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    
+}
+
+.slider-container ul.slide-wrapper li{
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* 모든 슬라이드 숨기기 */
+}
+.slider-container ul.slide-wrapper li:first-child{
+    display: block; /* 보여주기 */
+    
+}
+.slider-container ul.slide-wrapper li img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.slider-container ul.slide-wrapper2 li{
+    /* border: 1px solid blue; */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* 모든 슬라이드 숨기기 */
+}
+.slider-container ul.slide-wrapper2 li:first-child{
+    display: block; /* 보여주기 */
+    
+}
+.slider-container ul.slide-wrapper2 li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.slider-container ul.slide-wrapper3 li{
+    /* border: 1px solid blue; */
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* 모든 슬라이드 숨기기 */
+}
+.slider-container ul.slide-wrapper3 li:first-child{
+    display: block; /* 보여주기 */
+    
+}
+.slider-container ul.slide-wrapper3 li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+
+/* 라이언 이미지 부분 */
+.section6_4{
+    width: 100%;
+    height: 515px;
+    margin-top: 16px;
+
+    border-radius: 36px;
+    background-color: #FAE100;
+    position: relative;
+}
+.section6_4 p{
+    width: 480px;
+    height: auto;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    position: absolute; top: 40px; left: 40px;
+    /* border: 1px solid red; */
+}
+.s6_4_shortcut{
+    font-size: 16px;
+    letter-spacing: -1px;
+    position: absolute; top: 100px; left: 40px;
+}
+.s6_4_iconbtn{
+    display: flex;
+    width: 480px;
+    height: 98px;
+    /* border: 1px solid red; */
+    position: absolute; top: 150px; left: 40px;
+}
+.s6_4_iconbtn ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+}
+.s6_4_iconbtn ul li{
+    margin: 0;
+}
+
+
+
+/* 상단 오른쪽 */
+.section6_5{
+    width: 100%;
+    height: 515px;
+    margin-top: 16px;
+
+    border-radius: 36px;
+    background-color: #0073ff;
+    position: relative;
+    overflow: hidden;
+}
+
+.section6_5 p{
+    width: 480px;
+    height: auto;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute; top: 40px; left: 40px;
+    /* border: 1px solid red; */
+}
+
+.section6_5>div{
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: #fff;
+    position: absolute; top: 135px; left: 40px;
+    /* border: 1px solid red; */
+}
+.section6_5 div a{
+    display: flex;
+    align-items: center;
+}
+.section6_5 a:hover .blur{
+    opacity: .8;
+}
+
+.section6_5 span{
+    display: inline-block;
+    /* margin-top: 3px; */
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: relative;
+}
+.section6_5 span img{
+    width: 8px;
+    height: 8px;
+    /* line-height: 8px; */
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* 하단 */
+
+ul.s6_bottom{
+    width: 1712px;
+    height: 162px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    box-sizing: border-box;
+
+}
+
+ul.s6_bottom li{
+    width: 848px;
+    height: 162px;
+}
+ul.s6_bottom li>a{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    margin: 0;
+    /* padding-top: 35px; */
+    position: relative;
+}
+ul.s6_bottom li>a>div.s6_text{
+    width: 100px;
+    height: 90px;
+    margin: 0;
+    /* border: 1px solid red; */
+    position: absolute; left: 40px; top: 35px;
+}
+ul.s6_bottom li>a:hover img.change{
+    opacity: .8;
+}
+.s6_bottom li>a>div>p{
+    width: 768px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 25px;
+}
+.s6b_shortcut{
+    width: 66px;
+    height: 26px;
+    /* border: 1px solid red; */
+    margin: 0;
+
+}
+.s6_bottom span{
+    width: 94px;
+    height: 27px;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute; left: 0px;bottom: 0;
+    /* border: 1px solid red; */
+}
+.s6_bottom span>div{
+    margin: 0;
+}
+ul.s6_bottom li>a>div.s6_img{
+    width: 100px;
+    height: 100px;
+    position: absolute; right: 40px; top: 31px;
+}
+ul.s6_bottom li>a>div img{
+    width: 100%;
+    height: 100%;
+
+}

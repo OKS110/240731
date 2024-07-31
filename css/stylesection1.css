@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+/* mobile */
+
+    #section1{
+        width: 712px;
+        height: 662px;
+        /* background-color: rgb(211, 211, 255); */
+    }
+    /* 비디오 오버레이 */
+    .overlay{
+        width: 712px;
+        height: 405px;
+        border-radius: 20px;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        position: relative;
+        
+    }
+    /* rt = right_top */
+    .rt_whitebg{
+        width: 230px;
+        height: 78px;
+        position: absolute; top: -2px; right: -2px;
+    }
+    .rt_whitebg img{
+        width: 100%;
+        height: 100%;
+    }
+    .rt_white_box{
+        width: 210px;
+        height: 58px;
+        background-color: #fff;
+        border-radius: 0 0 0 20px;
+        position: absolute; top: 0; right: 0;
+    }
+    .rt_bulb_wrap{
+        width: 200px;
+        height: 48px;
+        /* border: 1px solid red; */
+        position: relative;
+        position: absolute; top: 3px; right: 0;
+    }
+    .bulb_text{
+        width: 148px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        font-size: 13px;
+        color: #fff;
+        background-color: #000;
+        border-radius: 12px;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    .rt_bulb_wrap>img{
+        display: block; 
+        width: 10.5px;
+        height: 13.65px;
+        position: absolute; bottom:6px; right: 50px;
+    
+    }
+    .bulb_img{
+        width: 48px;
+        height: 48px;
+        /* border: 1px solid red; */
+        float: right;
+    }
+    .bulb_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* lb = left_bottom */
+    .lb_whitebg{
+        width: 191px;
+        height: 75px;
+        position: absolute; bottom: -1px; left: -2px;
+    }
+    .lb_whitebg img{
+        width: 100%;
+        height: 100%;
+    }
+    .lb_white_box{
+        width: 171px;
+        height: 55px;
+        background-color: #fff;
+        border-radius: 0 20px 0 0;
+        position: absolute; bottom: 0; left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lb_white_wrap{
+        width: 115px;
+        height: 24px;
+        /* border: 1px solid red; */
+    }
+    .lb_text{
+        width: 80px;
+        height: 24px;
+        color: #000;
+        font-size: 13px;
+        letter-spacing: -1px;
+        float: left;
+        /* border: 1px solid red; */
+    
+    }
+    .lb_img{
+        width: 24px;
+        height: 24px;
+        background-color: #000;
+        border-radius: 24px;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lb_img:hover{
+        opacity: .8;
+    }
+
+    /* 동영상 아래 3개 박스 */
+    #section1 ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #section1 ul li{
+        margin: 0;
+        width: 232px;
+        height: 232px;
+        background-color: #FAE100;
+        border-radius: 20px;
+        overflow: hidden;
+        float: left;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        flex-direction: column;
+        position: relative;
+    }
+    .hide{
+        /* display: block; */
+        display: none;
+    }
+    #section1 ul li:nth-child(2){
+        background-color: #F3F3F3;
+    }
+    #section1 ul li a{
+        width: 100%;
+        height: 100%;
+    }
+    .li_1_title{
+        margin-top: 73px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /* 수치 */
+    .number{
+        margin-top: 13px;
+        width: 165px;
+        height: 35px;
+        font-size: 25px;
+        font-weight: bold;
+        /* border: 1px solid red; */
+    
+    }
+    .number>span{
+        font-size: 14px;
+        font-weight: normal;
+        /* border: 1px solid red; */
+    
+    }
+
+    /* 토글 */
+    .btn_wrap{
+        width: 64px;
+        height: 24px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+        position: absolute; bottom: 12px; left: 84px;
+        
+    }
+    .btn_1{
+        width: 40px;
+        height: 24px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    
+    }
+    .btn_1 img{
+        width: 24px;
+        height: 8px;
+        margin: 0;
+    }
+    .btn_2{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .btn_2 img{
+        width: 8px;
+        height: 8px;
+        margin: 0;
+    }
+
+    /* 다양성의 가치txt */
+    .value{
+        width: 90px;
+        height: 26px;
+        border-radius: 8px;
+        background-color: #000;
+        color: #fff;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute; top: 20px; left: 20px;
+    }
+    .value_title{
+        width: 192px;
+        height: 42px;
+        font-size: 14px;
+        position: absolute; top: 54px; left: 20px;
+    
+    }
+    .value_tag{
+        width: 200px;
+        height: 18px;
+        /* border: 1px solid red; */
+        position: absolute; top: 104px; left: 20px;
+        font-size: 13px;
+        color: #666666;
+    }
+
+    /* 토글 */
+    .btn2_wrap{
+        width: 88px;
+        height: 24px;
+        /* border: 1px solid red; */
+        position: absolute; bottom: 12px; left: 72px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn2_1{
+        width: 40px;
+        height: 24px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn2_2{
+        width: 24px;
+        height: 24px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* 카카오그룹 버튼 */
+    .group_left_btn{
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute; bottom: 104px; left: 12px;
+    
+    }
+    .group_right_btn{
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute; bottom: 104px; right: 12px;
+    
+    }
+    .group_img{
+        font-size: 14px;
+        width: 80px;
+        height: 80px;
+        /* line-height: 80px; */
+        /* border: 1px solid red; */
+        position: absolute; top: 62px; right: 76px;
+        text-align: center;
+    
+    }
+    .group_img img{
+        width: 100%;
+        height: 100%;
+    }
+
