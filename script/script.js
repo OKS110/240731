@@ -314,3 +314,43 @@ $(function(){
         }
     });
 })
+
+
+
+// ================================================모바일 햄버거 아이콘 클릭 시 나타나는 메뉴=========================================================
+$(function () {
+    // jQuery 문서 준비 이벤트
+    // DOM이 완전히 로드되었을 때 실행될 코드를 정의
+    // $(function() {})은 $(document).ready(function() {})와 같은 역할을 함
+
+    var $toggleButton = $('#toggle-button'); // 'toggle-button' ID를 가진 요소를 jQuery 객체로 참조
+    var $sideMenu = $('#side-menu'); // 'side-menu' ID를 가진 요소를 jQuery 객체로 참조
+    var $closeButton = $('#close-button'); // 'close-button' ID를 가진 요소를 jQuery 객체로 참조
+
+    // 'toggle-button'이 클릭되었을 때 사이드 메뉴 표시
+    $toggleButton.on('click', function () {
+        // 'side-menu'에 'show' 클래스를 추가하여 메뉴를 표시함
+        $sideMenu.addClass('show');
+    });
+
+    // 'close-button'이 클릭되었을 때 사이드 메뉴 숨김
+    $closeButton.on('click', function () {
+        // 'side-menu'에서 'show' 클래스를 제거하여 메뉴를 숨김
+        $sideMenu.removeClass('show');
+    });
+
+    // 문서의 아무 곳이나 클릭되었을 때 사이드 메뉴 숨김
+    $(document).on('click', function (event) {
+        // 클릭된 요소(event.target)가 'side-menu' 내부나 'toggle-button' 내부가 아닐 경우
+        if (!$sideMenu.is(event.target) && $sideMenu.has(event.target).length === 0 &&
+            !$toggleButton.is(event.target) && $toggleButton.has(event.target).length === 0) {
+            // 'side-menu'에서 'show' 클래스를 제거하여 메뉴를 숨김
+            $sideMenu.removeClass('show');
+        }
+    });
+
+    // 각 이벤트 핸들러의 설명:
+    // 1. $toggleButton.on('click', ...): 사용자가 토글 버튼을 클릭하면, 사이드 메뉴가 화면에 표시됩니다.
+    // 2. $closeButton.on('click', ...): 사용자가 닫기 버튼을 클릭하면, 사이드 메뉴가 화면에서 사라집니다.
+    // 3. $(document).on('click', ...): 사용자가 사이드 메뉴나 토글 버튼 외부를 클릭하면, 사이드 메뉴가 화면에서 사라집니다.
+});
