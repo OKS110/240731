@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./css/stylesection4.css">
     <link rel="stylesheet" href="./css/stylesection5.css">
     <link rel="stylesheet" href="./css/stylesection6.css">
+    <link rel="stylesheet" href="./css/burger.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,6 +139,7 @@
             </div>
         </nav>
     </header>
+
 
 
 <!-- =======================================section_1===================================
@@ -1009,11 +1011,49 @@
      </h1>
      <nav>
          <a href="#"><img src="./icons2/heading_1_react.svg" alt="돋보기"></a>
-         <a href="#"><img src="./icons2/heading_burger.svg" alt="버거"></a>
+         <a href="#" id="toggle-button"><img src="./icons2/heading_burger.svg" alt="버거"></a>
      </nav>
  </div>
  
 </header>
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
+
+<!-- 모바일 화면에서 버거 아이콘을 눌렀을 때 나오는 메뉴 -->
+<div id="side-menu" class="burger_wrap">
+    <div class="burger_menu">
+        <h1>
+            <a href="#"><img src="./images/kakao.svg" alt="로고"></a>
+        </h1>
+        <button id="close-button" class="close-button">X</button>
+        
+            <ul>
+                <li><a href="#"><div><img src="./icons/trumpet.svg" alt="1"></div><span>소개</span></a></li>
+                <li><a href="#"><div><img src="./icons2/title_img1.svg" alt="2"></div><span>이야기</span></a></li>
+                <li><a href="#"><div><img src="./icons2/title_img2.svg" alt="3"></div><span>기술과 서비스</span></a></li>
+                <li><a href="#"><div><img src="./icons2/title_img4.svg" alt="4"></div><span>약속과 책임</span></a></li>
+                <li><a href="#"><div><img src="./icons2/title_img5.svg" alt="5"></div><span>뉴스</span></a></li>
+                <li><a href="#"><div><img src="./icons/investment.svg" alt="6"></div><span>투자정보</span></a></li>
+            </ul>
+        
+
+        <div class="burger_footer">
+            <span>인재영입</span>
+            <span>고객센터</span>
+            <div>
+                <a href="#"><img src="./icons/header_icon3.svg" alt="달"></a>
+                <a href="#"><img src="./icons/header_icon2.svg" alt="지구"></a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
+
+
 
  <!-- =======================================section1==================================
 ============================================================================= -->
@@ -1826,6 +1866,7 @@
 </div>
 
 
+
 <div class="footer_bottom_wrap">
  <div class="footer_rights">
      &copy; <a href="#">Kakao Corp. </a>All rights reserved.
@@ -1841,6 +1882,8 @@
 
 </footer>
 </div>
+
+
 
 </body>
 </html>
