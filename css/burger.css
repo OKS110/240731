@@ -80,6 +80,7 @@
     height: 100%;
 }
 .burger_wrap ul li span{
+    margin: 0;
     font-size: 30px;
     font-weight: bold;
     display: block;
