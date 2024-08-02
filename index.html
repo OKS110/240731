@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />  
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
 
     <link rel="shoutcut icon" href="./images/fv.svg">
     <!-- 파비콘 -->
@@ -72,7 +74,9 @@
             #pcwrap{
                 display: none;
             }
-            #mobile_wrap{position: relative; display: block;}
+            #mobile_wrap{position: relative; display: block;
+                width: 100%;
+                max-width: 768px;}
     }
     
     </style>
