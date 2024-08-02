@@ -3,6 +3,8 @@
 /* mobile */
 
     #section1{
+        box-sizing: border-box;
+
         width: 712px;
         height: 662px;
         /* background-color: rgb(211, 211, 255); */

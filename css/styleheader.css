@@ -3,6 +3,8 @@
 /* mobile */
 
     .mheader{
+        box-sizing: border-box;
+
         width: 768px;
         height: 72px;
         background-color: #fff;
