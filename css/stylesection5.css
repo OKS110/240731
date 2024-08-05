@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* mobile */
-
+@media screen and (max-width: 1024px){
     #section5{
         width: 712px;
         height: 413px;
@@ -126,3 +126,7 @@
         color: #000;
         /* 글자 색 검정 */
     }
+
+}
+
+    

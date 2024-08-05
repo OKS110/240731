@@ -2,7 +2,7 @@
 
 
 /* mobile */
-
+@media screen and (max-width: 1024px){
     #section3{
         width: 712px;
         height: 502px;
@@ -190,3 +190,6 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+    

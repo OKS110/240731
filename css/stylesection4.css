@@ -2,7 +2,7 @@
 
 
 /* mobile */
-
+@media screen and (max-width: 1024px){
     #section4{
         width: 712px;
         height: 472px;
@@ -235,3 +235,6 @@
     .menu3:hover div{
         opacity: 0.8;
     }
+}
+
+    

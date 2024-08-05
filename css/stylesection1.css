@@ -1,10 +1,8 @@
 @charset "utf-8";
 
 /* mobile */
-
+@media screen and (max-width: 1024px){
     #section1{
-        box-sizing: border-box;
-        margin-left: 30px;
         width: 712px;
         height: 662px;
         /* background-color: rgb(211, 211, 255); */
@@ -309,3 +307,6 @@
         height: 100%;
     }
 
+
+}
+    
