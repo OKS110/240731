@@ -174,6 +174,7 @@ header.subheader{
 /* ====================================================================반응형 헤더============================================================= */
 @media (max-width:768px){
 header.pcheader{display: none;}
+
 /* pc 헤더 가리기 */
 header.subheader{
     display: block;

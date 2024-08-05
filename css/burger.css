@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+
+.burger_wrap{display: none;}
 /* 버거 아이콘 클릭 시 메뉴 나타남 */
 @media screen and (max-width: 1024px){
     .burger_wrap{
+        display: block;
         margin: 0 auto;
         position: fixed;
         top: 0;
