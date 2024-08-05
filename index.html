@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
-    <meta content="yes" name="apple-mobile-web-app-capable" />  
-    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
-
     <link rel="shoutcut icon" href="./images/fv.svg">
     <!-- 파비콘 -->
 
@@ -35,10 +31,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="cssscreen.css">
-    <link rel="stylesheet" type="text/css" media="print" href="cssprint.css">
     <script src="./script/jquery-1.12.3.js"></script>
     <script src="./script/script.js"></script>
 
@@ -48,11 +41,11 @@
         *{
             margin: 0 auto;
             padding: 0;
-            
         }
         body{
             font-family: "Inter", sans-serif;
             padding-top: 92px;
+
         }
 
         a { display: block;
@@ -70,15 +63,13 @@
         #mobile_wrap{position: relative; display: none;}
 
 
-        @media (max-width:768px){
+        @media screen and (max-width: 1024px){
             #pcwrap{
                 display: none;
             }
             #mobile_wrap{position: relative; display: block;
-                width: 100%;
-                max-width: 768px;}
+            max-width: 1024px;}
     }
-    
     </style>
 </head>
 
@@ -1046,7 +1037,6 @@
                 <li><a href="#"><div><img src="./icons2/title_img5.svg" alt="5"></div><span>뉴스</span></a></li>
                 <li><a href="#"><div><img src="./icons/investment.svg" alt="6"></div><span>투자정보</span></a></li>
             </ul>
-        
 
         <div class="burger_footer">
             <span>인재영입</span>
